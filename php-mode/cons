@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: __constructor(...) { ... }
+# key: cons
+# --
+public function __construct($1)
+{
+    $0
+}
