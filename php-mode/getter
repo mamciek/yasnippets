@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: function get...() { ... }
+# key: get
+# --
+public function get${1:Name$(capitalize yas/text)}()
+{
+    return $this->${1:$(downcase yas/text)};$0
+}
